@@ -1,14 +1,11 @@
-var numeroSecreto = parseInt(Math.random() * 11);
+function Converter() {
+  var valorElemento = document.getElementById("valor");
+  var valor = valorElemento.value;
+  var valorEmDolarNumerico = parseFloat(valor);
 
-function Chutar() {
-  var elementoResultado = document.getElementById("resultado");
-  var chute = parseInt(document.getElementById("valor").value);
-  console.log(chute);
-  if (chute == numeroSecreto) {
-    elementoResultado.innerHTML = "Você acertou";
-  } else if (chute > 10 || chute < 0) {
-    elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10";
-  } else {
-    elementoResultado.innerHTML = "Errou";
-  }
+  var valorEmReal = valorEmDolarNumerico * 5;
+  console.log(valorEmReal);
+  var elementoValorConvertido = document.getElementById("valorConvertido");
+  var valorConvertido = "O resultado em real é R$ " + valorEmReal;
+  elementoValorConvertido.innerHTML = valorConvertido;
 }
