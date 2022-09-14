@@ -1,8 +1,9 @@
-Conteúdo detalhado desta aula:
-Realizar o fork do projeto com template inicial;
-Fazer testes utilizando console.log();
-Criar a lógica por trás do "chute" com if, else if e else;
-Utilizar a função Math.random() do JavaScript para gerar números aleatórios;
+Conteúdo detalhado desta aula
+Criar uma conta no CodePen;
+Entender as diferenças entre HTML, CSS e JavaScript;
+Variáveis, manipulação dos valores armazenados e a memória do computador;
+Tipos de variáveis, como texto e inteiro;
+Fixando a quantidade de casas decimais com a função toFixed();
 
 Desafios desta aula!
 Dependendo da nota, mostrar se a aluna ou aluno foi aprovada(o) ou não
